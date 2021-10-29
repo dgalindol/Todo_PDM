@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rgGrupo"
+        android:layout_width="359dp"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbHombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sexoSeleccionado"
+            android:text="Hombre" />
+
+        <RadioButton
+            android:id="@+id/rbMujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sexoSeleccionado"
+            android:text="Mujer" />
+
+        <RadioButton
+            android:id="@+id/rbNoBiN4r1O"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sexoSeleccionado"
+            android:orientation="vertical"
+            android:text="N0 BiN4r1O" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

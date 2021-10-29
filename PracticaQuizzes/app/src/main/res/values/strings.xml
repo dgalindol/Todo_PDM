@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PracticaQuizzes</string>
+    <string name="botonIniciar">Inicar Juego</string>
+    <string name="textoIniciar">Bienvenido a la aplicacion\nQuizzes para empezar el juego\npulse el botón</string>
+</resources>
